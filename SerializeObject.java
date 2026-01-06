@@ -13,7 +13,7 @@ public class SerializeObject {
                 oos.writeObject(s1);
 
                 oos.close();
-                fos.close();
+                fos.close();    
 
                 System.out.println("Object serialized successfully");
             } catch (IOException e) {
@@ -21,3 +21,4 @@ public class SerializeObject {
             }
         }
 }
+
