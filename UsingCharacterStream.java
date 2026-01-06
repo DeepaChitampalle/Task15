@@ -11,10 +11,11 @@ public class UsingCharacterStream {
 
                 fw.close();
                 System.out.println("Written using Character Stream");
-            } catch (IOException e) {
-                e.printStackTrace();
+            }catch(IOException e){
+                e.printStackTrace();   
             }
         }
 }
+
 
 
